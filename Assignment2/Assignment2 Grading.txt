@@ -1,0 +1,23 @@
+Assignment 2 Grading 
+
+Main View (Spinner, Go to next activity, Pass Data)	30/30
+
+Keyboard Activity works correctly 
+(Panning, back, hide, field data from first activity)	30/30
+
+Date Activity		30/30
+
+Saving date data permanently and retrieving the data	10/10
+
+List Activity works correctly 
+(List items correctly,send selected item back, uses Fragments) 30/30
+
+Back in Action Bar (Extra Credit)	5/5
+
+Select Activities in Action Bar (Extra Credit)	5/5
+
+Split Action Bar (Extra Credit)		5/5
+
+Context menus (Extra Credit)		5/5
+
+Total  /130

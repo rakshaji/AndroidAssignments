@@ -1,0 +1,9 @@
+
+Two layouts, Each used in proper orientation	30/30
+Clear Button works in both layouts		30/30
+Correct values displayed when rotate device 30/30
+Logging methods		15/15
+Used string resource	15/15
+Coding style		5/5
+Answers to issue 1.	5/5
+

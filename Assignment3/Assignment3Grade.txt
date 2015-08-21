@@ -1,0 +1,17 @@
+
+
+Network connections		35/35
+
+List View for Instructors	25/25
+
+Instructor detail view(s)	25/25
+
+Posting rating & Comments	30/30
+
+GUI look			11/15
+
+Cache values in memory (Extra Credit)	0/5
+
+database (Extra Credit)			20/20
+
+Total		146/130

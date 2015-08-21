@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment3</string>
+    <string name="title_instructor_detail">Instructor Details</string>
+    <string name="RateInstructorLabel">Rate this instructor</string>
+    <string name="TwoStar">2</string>
+    <string name="OneStar">1</string>
+    <string name="ThreeStar">3</string>
+    <string name="FourStar">4</string>
+    <string name="FiveStar">5</string>
+    <string name="instructorNameLabel">Instructor:</string>
+    <string name="instructorEmailLabel">Email:</string>
+    <string name="instructorOfficeLabel">Office:</string>
+    <string name="instructorPhoneLabel">Phone:</string>
+    <string name="noReviewText">Be the first one to review</string>
+    <string name="enter_comment_hint">Enter your comment(optional)</string>
+    <string name="average_rating">average_rating</string>
+    <string name="instructor_name">instructor name</string>
+    <string name="instructor_office">instructor office</string>
+    <string name="instructor_phone">instructor_phone</string>
+    <string name="instructor_email">instructor_email</string>
+    <string name="instructor_rating">average_rating</string>
+    <string name="reviewer">Reviewer</string>
+    <string name="reviews_tab">Reviews</string>
+    <string name="details">Details</string>
+    <string name="title_Instructors">Instructors</string>
+    <string name="comment_title">Comment</string>
+    <string name="submit_btn">Submit</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="no_internet_error">No Network connection found. Please check your internet connection and then retry.</string>
+    <string name="error_title">Error</string>
+
+</resources>

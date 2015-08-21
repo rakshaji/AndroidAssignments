@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.raksha.assignment.assignment2.DateActivity">
+    <item android:id="@+id/action_list_activity"
+        android:title="List Activity" />
+    <item android:id="@+id/action_keyboard_activity"
+        android:title="Keyboard Activity" />
+    <item android:id="@+id/action_main_activity"
+        android:title="Main Activity" />
+</menu>

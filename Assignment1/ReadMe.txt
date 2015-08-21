@@ -1,0 +1,1 @@
+Answer 1 - No. As the activity gets destroyed upon screen rotation, the state needs to be saved to a bundle in onSaveInstanceState method, so that it can be retrieved from the bundle in onCreate or onRestoreInstanceState methods when required.

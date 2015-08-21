@@ -1,0 +1,243 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/instructor_detail_container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".InstructorDetailActivity" tools:ignore="MergeRootFrame" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/info_layout">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="left|top"
+            android:id="@+id/infoTable"
+            android:layout_alignTop="@+id/noReviewLabel"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/ic_action_person"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="right"
+                    android:layout_column="1"
+                    android:contentDescription="@string/instructor_name" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/instructorName"
+                    android:layout_column="2"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:gravity="center|left"
+                    android:layout_gravity="left" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/ic_action_place"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="right"
+                    android:layout_column="1"
+                    android:contentDescription="@string/instructor_office" />
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/instructorOffice"
+                    android:layout_gravity="left"
+                    android:layout_column="2"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:gravity="center|left" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="55dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/ic_action_phone"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="right"
+                    android:layout_column="1"
+                    android:contentDescription="@string/instructor_phone" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/instructorPhone"
+                    android:layout_gravity="left"
+                    android:layout_column="2"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:gravity="center|left" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="20dp"
+                android:layout_marginLeft="55dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/ic_action_email"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="right"
+                    android:layout_column="1"
+                    android:contentDescription="@string/instructor_email" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/instructorEmail"
+                    android:layout_gravity="left"
+                    android:layout_column="2"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:gravity="center|left" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp" >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:id="@+id/avgRatingImage"
+                    android:src="@drawable/ic_action_important"
+                    android:paddingRight="10dp"
+                    android:layout_gravity="right"
+                    android:layout_column="1"
+                    android:contentDescription="@string/instructor_rating" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/average_rating"
+                    android:layout_gravity="left"
+                    android:layout_column="2"
+                    android:textSize="@dimen/abc_text_size_medium_material"
+                    android:gravity="center|left" />
+            </TableRow>
+
+        </TableLayout>
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingBar"
+            android:stepSize="1.0"
+            android:layout_below="@+id/rateInstructorLabel"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/RateInstructorLabel"
+            android:id="@+id/rateInstructorLabel"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/noReviewText"
+            android:id="@+id/noReviewLabel"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:id="@+id/listView"
+            android:layout_gravity="left|bottom"
+            android:choiceMode="none"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="false" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/reviews_tab"
+            android:id="@+id/reviewTab"
+            android:textStyle="bold"
+            style="@style/Widget.AppCompat.ActionBar.TabView"
+            android:theme="@style/Widget.AppCompat.ActionBar.TabBar"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:layout_above="@+id/listView"
+            android:layout_alignParentStart="true" />
+
+        <ProgressBar
+            android:id="@+id/reviewProgress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="105dp"
+            android:layout_gravity="center_horizontal|top"
+            android:indeterminate="false"
+            android:layout_below="@+id/noReviewLabel"
+            android:layout_alignStart="@+id/rateInstructorLabel"
+            android:layout_marginTop="10dp"
+            android:layout_alignEnd="@+id/rateInstructorLabel" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:id="@+id/infoProgress"
+            android:layout_width="289dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center_horizontal|top"
+            android:indeterminate="false"
+            android:layout_alignStart="@+id/rateInstructorLabel"
+            android:layout_marginTop="64dp"
+            android:layout_alignEnd="@+id/rateInstructorLabel"
+            android:layout_alignTop="@+id/listView" />
+
+        <TextView
+            style="@style/Widget.AppCompat.ActionBar.TabView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/details"
+            android:id="@+id/textView"
+            android:textStyle="bold"
+            android:theme="@style/Widget.AppCompat.ActionBar.TabBar"
+            android:background="@android:color/darker_gray"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/ratingBar"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</FrameLayout>
