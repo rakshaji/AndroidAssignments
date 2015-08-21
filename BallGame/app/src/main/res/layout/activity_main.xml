@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                android:orientation="vertical">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/clear"
+        android:id="@+id/clear"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <com.raksha.assignment.assignment4.BouncingCircleSurface
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/bouncingBallSurface" />
+
+
+</LinearLayout>
